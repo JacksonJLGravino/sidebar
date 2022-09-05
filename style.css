@@ -1,0 +1,130 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --body-bg-color: #dce4e3;
+  --green: #18c29c;
+  --light-green: #8ed7c6;
+	--light-grey: #dce4e3;
+  --text-color: #084236;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+aside{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--green);
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.icons{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.icon{
+  height: 50px;
+  width: 50px;
+  margin: 14px 14px;
+  display: flex;
+  padding-left: 13px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.icon:hover{
+  background-color: var(--light-grey);
+  border-radius: 12px;
+}
+
+.selected{
+  background-color: var(--light-green);
+  border-radius: 12px;
+}
+
+.logOut{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 100%;
+  background-color: var(--light-green);
+}
+
+.logOut:hover{
+  background-color: var(--light-grey);
+}
+
+/*Open*/
+
+.iconsSpan{
+  margin-left: 13px;
+  color: var(--text-color);
+  font-weight: 500;
+  display: none; 
+}
+
+.veterinario{
+  display: flex;
+}
+
+
+.logo{
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+
+
+.veterinario img{
+  height: 45px;
+  width: 45px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logOut.open{
+  display: flex;
+  justify-content: space-around;
+}
+
+.info{
+  margin-left: 9px;
+}
+
+.nome{
+  font-size: 15px;
+  color: var(--text-color);
+  line-height: 22px;
+}
+
+.trabalho{
+  font-size: 12px;
+  color: var(--text-color);
+  line-height: 18px;
+}
+
+.Is{
+  display: none;
+}
