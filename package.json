@@ -1,0 +1,16 @@
+{
+  "name": "sidebar",
+  "version": "1.0.0",
+  "description": "Esse projeto é um uma sidebar que quando o usuário clicar no ícone do menu ela abre mostrando ícones e texto e quando clicado de novo ele fecha mostrando apenas os ícones.\r </br>\r </br>",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  }
+}

@@ -8,7 +8,7 @@ Esse projeto é um uma sidebar que quando o usuário clicar no ícone do menu el
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML
+- EJS
 - CSS
 - JavaScript
 

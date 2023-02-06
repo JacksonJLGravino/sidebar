@@ -1,0 +1,78 @@
+<aside class="aside">
+  <nav class="icons">
+    <div class="logo">
+      <a id="logoVet" class="logoVet Is" href="/">
+        <img src="assets/logo.svg" alt="" />
+      </a>
+      <a onclick="abrirFechar()" href="#">
+        <img src="assets/menu.svg" alt="" />
+      </a>
+    </div>
+
+    <a
+      href="/"
+      class="<%= selectBuscar %> icon"
+      id="buscar"
+      onclick="teste('buscar')"
+    >
+      <img src="assets/search.svg" alt="" />
+      <span class="iconsSpan">Buscar</span>
+    </a>
+    <a
+      href="/dashboard"
+      class="<%= selectDashboard %> icon"
+      id="dashboard"
+      onclick="teste('dashboard')"
+    >
+      <img src="assets/grid.svg" alt="" />
+      <span class="iconsSpan">Dashboard</span>
+    </a>
+    <a
+      href="/pets"
+      class="<%= selectPets %> icon"
+      id="pets"
+      onclick="teste('pets')"
+    >
+      <img src="assets/pet.svg" alt="" />
+      <span class="iconsSpan">Pets</span>
+    </a>
+    <a
+      href="/clientes"
+      class="<%= selectClientes %> icon"
+      id="clientes"
+      onclick="teste('clientes')"
+    >
+      <img src="assets/user.svg" alt="" />
+      <span class="iconsSpan">Clientes</span>
+    </a>
+    <a
+      href="/vets"
+      class="<%= selectVets %> icon"
+      id="vets"
+      onclick="teste('vets')"
+    >
+      <img src="assets/vet.svg" alt="" />
+      <span class="iconsSpan">Vets</span>
+    </a>
+    <a
+      href="/ajustes"
+      class="<%= selectAjustes %> icon"
+      id="ajustes"
+      onclick="teste('ajustes')"
+    >
+      <img src="assets/settings.svg" alt="" />
+      <span class="iconsSpan">Ajustes</span>
+    </a>
+  </nav>
+
+  <div class="logOut open">
+    <div id="veterinario" class="veterinario Is">
+      <img src="assets/photo.jpg" alt="" />
+      <div class="info">
+        <p class="nome">Eleanor Pena</p>
+        <p class="trabalho">Veterinária</p>
+      </div>
+    </div>
+    <a href="#"><img src="assets/log-out.svg" alt="" /></a>
+  </div>
+</aside>

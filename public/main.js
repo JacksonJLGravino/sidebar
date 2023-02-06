@@ -1,6 +1,7 @@
 const logoVet = document.getElementById('logoVet')
 const veterinario = document.getElementById('veterinario')
 const aside = document.querySelector('aside')
+let sec = ''
 
 function abrirFechar() {
   if ('logoVet Is' == logoVet.classList.value) {
